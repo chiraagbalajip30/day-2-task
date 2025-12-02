@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <title>Contact - Mini Website</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <nav>
@@ -23,7 +27,7 @@
             margin: 0;
           "
         >
-          <button
+          <!-- <button
             onclick="toggleTheme()"
             style="
               width: 120px;
@@ -34,6 +38,9 @@
             "
           >
             TOGGLE THEME
+          </button> -->
+          <button id="theme-toggle" onclick="toggleTheme()">
+            <i id="themeIcon" class="fa-solid fa-sun"></i>
           </button>
         </div>
       </div>
