@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About - Mini Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <!-- <a href="about.html">About</a> -->
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+      <div class="main-div">
+        <h1>About this Website</h1>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+          "
+        >
+          <button id="theme-toggle" onclick="toggleTheme()">
+            <i id="themeIcon" class="fa-solid fa-sun"></i>
+          </button>
+        </div>
+      </div>
+      <p>
+        This mini project demonstrates how a simple website can be structured
+        using HTML and beautifully styled using CSS.
+      </p>
+      <p>
+        Everything, including layout, spacing, buttons, and mobile
+        responsiveness, is implemented using pure CSS without any frameworks.
+      </p>
+      <p>
+        Building projects like this helps strengthen your basics in front-end
+        development.
+      </p>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+        "
+      >
+        <button
+          onclick="showMessage()"
+          style="
+            width: 120px;
+            height: 40px;
+            font-size: 14px;
+            padding: 0;
+            cursor: pointer;
+            margin-top: 26px;
+          "
+        >
+          Click Me
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
